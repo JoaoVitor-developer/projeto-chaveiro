@@ -1,0 +1,377 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-tel {
+    background-color: #3d3f41;
+    color: #fff;
+    
+}
+
+header {
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: 5px;
+    width: 100%;
+    position: fixed;
+}
+
+.header-banner-chave {
+    margin-top: 100px;
+    width: 100%;
+    height: 530px;
+}
+
+.image-cartao-1 {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.home-1 {
+    color: blue;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+li {
+    color: #000;
+    cursor: pointer;
+    transition: font-size 0.8s ease;
+    font-family: "Roboto Mono", serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+li:hover {
+    color: rgba(3, 65, 252);
+    font-size: 22px;
+}
+
+li:active {
+    color: rgba(3, 65, 252);
+}
+
+.servicos-automotivos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-chave {
+    width: 500px;
+}
+
+.banner-chave-text {
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.servicos-automotivos {
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8px;
+}
+
+.cards {
+    border: 2px solid #ccc;
+    width: 90%;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 30%;
+    margin-left: 10px;
+    color:#888990;
+    font-size: 15px;
+}
+
+b {
+    font-size: 18px;
+    color: #3d3f41;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.actor-cards-container-2 {
+    margin-top: 10px;
+}
+
+.cards-container-2 {
+    height: 340px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    margin-left: 508px;
+}
+
+.servicos-residenciais {
+    font-family: sans-serif;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.actor-cards-container-3 {
+    margin-top: 10px;
+}
+
+.cards-container-3 {
+    height: 340px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+}
+
+.banner-servico {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.actor-cards-container-4 {
+    margin-top: 10px;
+}
+
+.cards-container-4 {
+    height: 340px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    margin-left: 493px;
+}
+
+.aonde-nos-estamos {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.image-assai-anchieta {
+    width:350px;
+    height: 350px;
+}
+
+.cards-container-5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+}
+.image-assai-anchieta {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.image-assai-diadema {
+    width: 300px;
+    height: 300px;
+    margin-left: 45px;
+}
+
+.image-ricoy {
+    width: 300px;
+    height: 300px;
+    margin-left: 45px;
+}
+
+.titulo-assai-anchieta {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.local-assai-anchieta {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.local-assai-diadema {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.local-ricoy {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+footer > .footer-cartao {
+    width: 200px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #2d2f31;
+    height: 220px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+@media (max-width : 768px) {    
+    a {
+       display: none; 
+    }
+
+    .header-tel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-banner-chave {
+        width: 100%;
+        height: 300px;
+    }
+
+    .servicos-automotivos {
+        font-size: 20px;
+    }
+
+    .banner-chave {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    b {
+        font-size: 15px;
+    }
+    
+    p {
+        font-size: 12px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cards-container-2 {
+        display: none;
+    }
+
+    .servicos-residenciais {
+        font-size: 16px;
+    }
+
+    .banner-servico {
+        width: 100%;
+        height: 200px;
+        margin: 7px;
+    }
+    
+    .cards-container-3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 185px;
+    }
+
+    .cards-container-4 {
+        display: none;
+    }
+
+    .aonde-nos-estamos {
+        font-size: 20px;
+    }
+
+    .cards-container-5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80%;
+    }
+
+    .image-assai-anchieta {
+        width: 75%;
+        height: 200px;
+    }
+
+    .local-assai-anchieta {
+        font-size: 15px;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+
+    .image-assai-diadema {
+        width: 70%;
+        height: 300px;
+        margin-left: 15%;
+    }
+
+    .local-assai-diadema {
+        font-size: 15px;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+
+    .image-ricoy {
+        width: 60%;
+        height: 200px;
+        margin-left: 20%;
+    }
+
+    .local-ricoy {
+        font-size: 15px;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 320px;
+    }
+}

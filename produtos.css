@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-tel {
+    background-color: #3d3f41;
+    color: #fff;
+    
+}
+
+header {
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: 5px;
+    width: 100%;
+    position: fixed;
+}
+
+.banner-produtos {
+    margin-top: 120px;
+    width: 100%;
+    height: 530px;
+}
+
+.image-cartao-1 {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.home-2 {
+    color: blue;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    color: #000;
+    cursor: pointer;
+    transition: font-size 0.8s ease;
+    font-family: "Roboto Mono", serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+li:hover {
+    color: rgba(3, 65, 252);
+    font-size: 22px;
+}
+
+.chaves-de-porta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cards-container {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    row-gap: 10px;
+    column-gap: 35px;
+}
+
+.cards {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #000;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.chaves-de-carro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.controles-portao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.baterias-pilhas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.seguranca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.banner-13 {
+    width: 380px;
+}
+
+.banner-14 {
+    width: 380px;
+}
+
+.banner-15 {
+    width: 380px;
+}
+
+.afiacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
+
+footer > .footer-cartao {
+    width: 200px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #2d2f31;
+    height: 220px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+}
