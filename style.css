@@ -99,11 +99,13 @@ li:active {
     font-size: 20px;
     transition: 0.5s;
     margin-left: 20px;
+    border-radius: 10px;
 }
 
 p {
-    margin-top: 30%;
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
     color:#888990;
     font-size: 15px;
 }
